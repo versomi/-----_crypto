@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url('../PHOTOS/backg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000000;
+    color: white;
+    direction: rtl;
+}
+  .logo {
+    width: 100px;
+    cursor: pointer;
+    position: absolute; /* מגדיר מיקום יחסית לדף */
+    left: 0; /* ממקם את הלוגו בצד שמאל */
+    margin-left:134px;
+    margin-top: 51px;
+  }
+  nav{
+    float:right;
+    margin-top: 70px;
+    margin-right: 120px;
+  }
+nav ol{
+  list-style-type:none;
+  padding: 5px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  position: relative;
+}
+nav li{
+  position: relative;
+}
+nav li a{
+  text-decoration: none;
+  color: #000000;
+  text-decoration-style:double;
+  display: inline-block;
+}
+
+
+header, footer, main {
+    text-align: center;
+    padding: 10px;
+}
+
+aside {
+    margin: 20px auto;
+    text-align: center;
+}
+
+    aside img {
+        width: 100px;
+    }
+
+#container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+#logoHit{
+  height: 100px;
+  width: 200px;
+  margin-top: 10px;
+}
